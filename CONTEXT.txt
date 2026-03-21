@@ -1,0 +1,299 @@
+================================================================================
+                            iPay — CONTEXTO VIVO
+                    Última actualización: 2026-03-20 | Día 1
+================================================================================
+
+ÍNDICE
+------
+1. Qué es iPay
+2. Por qué existe
+3. Problema que resuelve
+4. Diferencial
+5. Tecnología
+6. Alineamiento estratégico
+7. Modelo de negocio
+8. Equipo y hackathon
+9. Arquitectura técnica
+10. Log de cambios e implementaciones
+
+================================================================================
+1. QUÉ ES iPay
+================================================================================
+
+iPay es la primera plataforma de pagos inteligentes en Solana que combina:
+- Blinks (blockchain links) para cobrar desde cualquier canal
+- Loyalty tokens automáticos vía Transfer Hooks (Token-2022)
+- Un AI Agent que permite a comercios crear y gestionar pagos con lenguaje natural
+
+En una frase:
+"iPay es el Square de PayFi — la application layer que convierte infraestructura
+stablecoin en una experiencia que merchants y consumers realmente usan."
+
+Categoría: PayFi (Payment Finance) — concepto creado por Lily Liu, Presidenta
+de Solana Foundation.
+
+================================================================================
+2. POR QUÉ EXISTE
+================================================================================
+
+El capital inteligente ha invertido $5B+ en infraestructura PayFi:
+- Stripe compró Bridge por $1.1B (stablecoin APIs)
+- Mastercard compró BVNK por $1.8B (stablecoin rails) — Mar 17, 2026
+- Rain levantó $250M ($1.95B valuación) — stablecoin cards
+- Mesh levantó $200M+ — crypto payments network
+
+PERO: Toda esa inversión fue en PLUMBING (infraestructura invisible).
+NADIE ha construido la APLICACIÓN que merchants y consumers usan directamente.
+
+Analogía: Existe Visa y Mastercard (rails), pero no existe Square (experiencia).
+iPay es el Square de PayFi.
+
+================================================================================
+3. PROBLEMA QUE RESUELVE
+================================================================================
+
+Para COMERCIOS en LATAM (y globalmente):
+- Fees de tarjetas de crédito: 3-7% por transacción
+- Settlement lento: 14-30 días para recibir fondos
+- Sin programas de lealtad accesibles para PyMEs
+- Sin analytics ni inteligencia de negocio
+- Fragmentación de medios de pago por país
+- Cross-border payments caros y lentos
+
+Para CONSUMIDORES:
+- 130M sin bancarizar en LATAM (26% de adultos)
+- Fees por servicios básicos
+- Inflación destruye el poder adquisitivo (Argentina 200%+)
+- No hay loyalty programs que realmente den valor
+
+Números del mercado:
+- $1.5T en crypto en LATAM
+- 57.7M personas (12.1%) tienen crypto en LATAM
+- 63% crecimiento en adopción crypto (2024-2025)
+- Stablecoins = 50%+ del volumen crypto en LATAM
+- $150-160B/año en remesas LATAM
+
+================================================================================
+4. DIFERENCIAL
+================================================================================
+
+iPay = Bridge (stablecoin infra)
+     + Blackbird (loyalty tokens)
+     + Square (merchant tools)
+     + ChatGPT (AI agent)
+     + Solana Blinks (shareable payments)
+
+Todo en UN solo producto.
+
+Competencia directa y por qué iPay gana:
+
+| Competidor         | Lo que hace            | Lo que le falta                    |
+|--------------------|------------------------|------------------------------------|
+| Huma Finance       | B2B trade finance      | Consumer, loyalty, AI, Blinks      |
+| Helio              | Pagos Shopify          | Loyalty, AI, Blinks, LATAM         |
+| Rain               | Stablecoin cards       | Merchant loyalty, AI, Blinks       |
+| Bridge (Stripe)    | Stablecoin APIs        | Nada consumer-facing               |
+| BVNK (Mastercard)  | Stablecoin rails       | Nada consumer-facing               |
+| Blackbird          | Loyalty restaurantes   | Solo USA, solo restaurantes, no AI |
+| Crowny             | Rewards por ver ads    | Sin pagos reales, casi muerto      |
+| Code Wallet        | Micropagos             | Sin loyalty, sin AI, sin dashboard |
+
+5 diferenciales únicos de iPay:
+1. Blinks + Loyalty — nadie lo combina
+2. Transfer Hooks para loyalty automático — innovación técnica Token-2022
+3. AI Agent para merchants — cero competencia en PayFi
+4. Foco LATAM nativo — todos los demás son USA/Global-first
+5. Multi-canal (QR + Blink + Widget + API + AI) en un solo producto
+
+================================================================================
+5. TECNOLOGÍA
+================================================================================
+
+Stack:
+- Smart Contracts: Anchor 0.30.1 (Rust) en Solana devnet
+- Token Loyalty: SPL Token-2022 con Transfer Hooks
+- Frontend: Next.js 14 + TypeScript + Tailwind CSS
+- Wallet: @solana/wallet-adapter (Phantom, Solflare, Backpack)
+- Blinks: @solana/actions SDK + API Routes
+- AI Agent: Claude API (Anthropic) + Solana Agent Kit (SendAI)
+- QR Codes: @solana/pay + qrcode library
+- Database: Supabase (PostgreSQL)
+- Deploy Frontend: Vercel
+- Deploy Contracts: Solana Devnet
+
+Wallet de desarrollo: EPasYQuqK2ix9jnn8SVdiJc1FWWXq5SHfHt8mwt7U9ZW
+Red: Devnet (https://api.devnet.solana.com)
+
+Herramientas instaladas:
+- Node.js v25.8.1
+- npm 11.11.0
+- Rust 1.94.0
+- Cargo 1.94.0
+- Solana CLI 3.1.11
+- Anchor CLI 0.30.1
+- Git 2.39.5
+
+================================================================================
+6. ALINEAMIENTO ESTRATÉGICO
+================================================================================
+
+Con Solana Foundation:
+- iPay ES PayFi — el concepto que Lily Liu (Presidenta) creó
+- Usa Blinks/Actions — feature nueva que Solana quiere ver adoptada
+- Usa Token-2022 Extensions — tecnología avanzada que quieren promover
+- Consumer app real — prioridad #1 de Solana para 2026
+- LATAM expansion — región prioritaria para Solana
+
+Con WayLearn (co-organizador hackathon):
+- Filosofía: "Learning is not just taking a course, it is building"
+- iPay demuestra que se puede CONSTRUIR algo real en 4 días
+- Open source — otros devs aprenden del código
+- Impacto LATAM directo
+
+Criterios de evaluación del hackathon:
+1. Viabilidad técnica — Integración profunda con Solana (4 capas)
+2. Prototipo funcional — App completa funcionando
+3. Complejidad — Transfer Hooks + AI + multi-canal
+4. Originalidad — Primero en combinar Blinks + Loyalty + AI
+
+================================================================================
+7. MODELO DE NEGOCIO
+================================================================================
+
+Revenue:
+- Starter: 0% fee, hasta $1K/mes (user acquisition)
+- Business: 0.5% fee (core revenue)
+- Pro: 0.3% fee + $49/mes (AI features)
+- Enterprise: Custom + 0.2% (API completa)
+- White-label: License fee (banks/fintechs)
+
+Proyección conservadora:
+- Y1: 500 merchants, $5M TPV, $25K revenue
+- Y2: 5,000 merchants, $100M TPV, $500K revenue
+- Y3: 50,000 merchants, $2B TPV, $10M revenue
+
+Exit paths:
+1. Adquisición por Solana Foundation/Labs ($50-200M)
+2. Adquisición por Stripe/Mastercard/Visa ($100M-$1B)
+3. Empresa independiente + VC (Series A→B→IPO)
+4. White-label para banks/fintechs (licensing)
+
+================================================================================
+8. EQUIPO Y HACKATHON
+================================================================================
+
+Hackathon: Solana LATAM Hackathon 2026
+Organizadores: WayLearn + Solana Foundation
+Plataforma: DoraHacks
+Periodo: 20-23 marzo 2026 (4 días)
+Deadline: 23 marzo 23:59 GMT-6
+Premios: $2,500 (1ro) / $1,500 (2do) / $1,000 (3ro)
+Bonus: 10 proyectos seleccionados para incubación en mayo
+Jueces: Miembros de Solana Foundation + WayLearn
+Q&A: 21-22 marzo, Discord
+
+Entregables requeridos:
+- Repo GitHub público con código funcional
+- Backend + cliente conectado + frontend
+- Video tutorial max 3 min (Loom)
+- Deploy en Solana devnet
+- Submit vía DoraHacks
+
+Categorías (iPay aplica a):
+- Blinks (primaria) — on-chain actions via links/QR
+- Loyalty Programs (secundaria) — reward systems
+- Blue Sky (terciaria) — innovación fuera de categoría
+
+================================================================================
+9. ARQUITECTURA TÉCNICA
+================================================================================
+
+┌─────────────────────────────────────────────────────────────────┐
+│                        iPay PLATFORM                             │
+│                                                                  │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌────────────────┐  │
+│  │ Merchant │  │ Consumer │  │  Blink   │  │   AI Agent     │  │
+│  │Dashboard │  │ Checkout │  │Generator │  │  (NL→Blinks)   │  │
+│  │ (Next.js)│  │ (Next.js)│  │  (API)   │  │(Claude+AgentKit│  │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └──────┬─────────┘  │
+│       │              │             │                │            │
+│  ┌────┴──────────────┴─────────────┴────────────────┴────────┐  │
+│  │              API Layer (Next.js API Routes)                │  │
+│  │         Webhooks | Auth | Analytics | Blinks Engine        │  │
+│  └────────────────────────┬───────────────────────────────────┘  │
+│                           │                                      │
+│  ┌────────────────────────┴───────────────────────────────────┐  │
+│  │              Solana Programs (Anchor/Rust)                  │  │
+│  │                                                             │  │
+│  │  ┌─────────────┐  ┌──────────────┐  ┌──────────────────┐  │  │
+│  │  │  Payment     │  │   Loyalty     │  │   Merchant       │  │  │
+│  │  │  Program     │  │   Program     │  │   Registry       │  │  │
+│  │  │  • Process   │  │  (Transfer    │  │                   │  │  │
+│  │  │  • Refund    │  │   Hooks)      │  │  • Register       │  │  │
+│  │  │  • Escrow    │  │  • Auto-mint  │  │  • Config         │  │  │
+│  │  │             │  │  • Redeem     │  │  • Analytics      │  │  │
+│  │  │             │  │  • Tier mgmt  │  │                   │  │  │
+│  │  └─────────────┘  └──────────────┘  └──────────────────┘  │  │
+│  │                                                             │  │
+│  └─────────────────────────────────────────────────────────────┘  │
+│                           │                                      │
+│  ┌────────────────────────┴───────────────────────────────────┐  │
+│  │                    Solana Devnet                             │  │
+│  │          USDC (SPL) | iPAY Token (Token-2022)               │  │
+│  └─────────────────────────────────────────────────────────────┘  │
+└─────────────────────────────────────────────────────────────────┘
+
+================================================================================
+10. LOG DE CAMBIOS E IMPLEMENTACIONES
+================================================================================
+
+[2026-03-20 — DÍA 1]
+
+✅ Creada carpeta /Desktop/iPay
+✅ Instalado toolchain completo: Rust 1.94, Solana CLI 3.1.11, Anchor 0.30.1
+✅ Configurado Solana para devnet
+✅ Generado keypair: EPasYQuqK2ix9jnn8SVdiJc1FWWXq5SHfHt8mwt7U9ZW
+✅ Investigación de mercado completada (MARKET_RESEARCH.md)
+   - Ecosistema Solana payments (Solana Pay, Blinks, Token Extensions)
+   - Análisis competitivo (Helio, TipLink, Sphere, Blackbird, Rain, etc.)
+   - Mercado LATAM ($1.5T crypto, 57.7M holders, 63% growth)
+   - AI + Blockchain convergence
+   - Integraciones CRM/third-party gap analysis
+✅ Estrategia completa creada (STRATEGY.md)
+   - 35+ empresas Web3/payments con funding reciente mapeadas
+   - Solana Foundation vision/mission alignment
+   - Plan de implementación 4 días
+   - Estrategia de marketing
+   - Roadmap de escalabilidad global (5 fases)
+   - Modelo de revenue detallado
+✅ Definido posicionamiento: "El Square de PayFi"
+✅ Identificado gap de mercado: $5B+ en infra PayFi, CERO application layer
+✅ Creado CONTEXT.txt (este archivo)
+
+✅ Resuelto: PayFi es categoría, no competidor. iPay = "Square de PayFi"
+✅ Inicializado proyecto Anchor en /iPay/ipay_protocol
+✅ Resuelto compatibilidad toolchain → Anchor 0.32.1 + Solana CLI 3.1.11 + Rust 1.94
+✅ Smart contract compilado exitosamente (ipay_protocol.so — 386KB)
+   - 5 instrucciones: initialize_platform, register_merchant, update_merchant,
+     process_payment (con auto-mint loyalty), redeem_loyalty
+   - 3 account types: Platform, Merchant, PaymentRecord
+   - Token interface (SPL Token-2022 compatible)
+   - PDA seeds para platform, merchants y payment records
+   - Error handling completo (6 error codes)
+   - Platform fee configurable (basis points)
+   - Loyalty multiplier por merchant (1x-10x)
+
+Herramientas actualizadas:
+- Anchor CLI 0.32.1 (upgraded from 0.30.1)
+- Solana CLI 3.1.11
+- Rust 1.94.0
+
+✅ Audit completo de gaps realizado (AUDIT_GAPS.md)
+   - Benchmarked vs ganadores recientes (MCPay $25K, TapeDrive $50K, Baxxis $70K+)
+   - Identificados 4 niveles de prioridad
+   - Plan de acción revisado para días 2-4
+   - Checklist final para ganar
+
+--- PRÓXIMO: Día 2 — Deploy devnet + USDC support + Next.js + Blinks API ---
+
+================================================================================
