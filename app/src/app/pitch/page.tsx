@@ -466,7 +466,7 @@ export default function PitchDeck() {
           <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-3">
             {[
               { label: "Frontend", value: "Next.js 14", sub: "30 routes" },
-              { label: "APIs", value: "7 REST", sub: "Rate limited" },
+              { label: "APIs", value: "12 REST", sub: "Rate limited" },
               { label: "AI", value: "LLM", sub: "Integrated" },
               { label: "Security", value: "6 patches", sub: "Audited" },
             ].map((item, i) => (
@@ -588,7 +588,7 @@ export default function PitchDeck() {
             <div className="p-6 rounded-2xl border border-white/[0.06] bg-white/[0.02]">
               <h3 className="font-bold text-white mb-4">Product</h3>
               <ul className="space-y-2 text-sm text-gray-400">
-                {["Smart contract deployed on Solana devnet", "17 pages: dashboard, checkout, AI, analytics, developer portal", "7 APIs with rate limiting & security hardening", "Legal: ToS, Privacy Policy, Merchant Agreement", "Live demo: ipay.xpandia.co"].map((item, i) => (
+                {["Smart contract deployed on Solana devnet", "18 pages: dashboard, checkout, AI, analytics, developer portal", "12 APIs with rate limiting & security hardening", "Legal: ToS, Privacy Policy, Merchant Agreement", "Live demo: ipay.xpandia.co"].map((item, i) => (
                   <li key={i} className="flex items-start gap-2">
                     <span className="mt-1 w-1.5 h-1.5 rounded-full bg-[#14F195] flex-shrink-0" />
                     {item}
@@ -623,7 +623,7 @@ export default function PitchDeck() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16">
             <div>
-              <Phase phase="Phase 1 — Mar 2026" title="Hackathon MVP" done items={["21 on-chain instructions", "Full frontend + 7 APIs", "AI merchant assistant", "Live on devnet"]} />
+              <Phase phase="Phase 1 — Mar 2026" title="Hackathon MVP" done items={["21 on-chain instructions", "Full frontend + 12 APIs", "AI merchant assistant", "Live on devnet"]} />
               <Phase phase="Phase 2 — Apr–Aug 2026" title="Incubation & Beta" items={["Security audit", "Beta with 20-50 merchants (Colombia)", "Fiat on/off-ramp (Bridge/Circle)", "KYC/AML integration (Metamap)"]} />
             </div>
             <div>

@@ -13,8 +13,8 @@
 
 ![Solana](https://img.shields.io/badge/Solana-Devnet-9945FF?style=for-the-badge&logo=solana)
 ![Smart Contract](https://img.shields.io/badge/Instructions-21_On--Chain-14F195?style=for-the-badge)
-![APIs](https://img.shields.io/badge/REST_APIs-7_Endpoints-blue?style=for-the-badge)
-![Pages](https://img.shields.io/badge/Frontend-17_Pages-orange?style=for-the-badge)
+![APIs](https://img.shields.io/badge/REST_APIs-12_Endpoints-blue?style=for-the-badge)
+![Pages](https://img.shields.io/badge/Frontend-18_Pages-orange?style=for-the-badge)
 ![Security](https://img.shields.io/badge/Security-6_Critical_Patches-red?style=for-the-badge)
 ![AI](https://img.shields.io/badge/AI-LLM_Powered-purple?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
@@ -24,8 +24,8 @@
 | Metric | Value |
 |--------|-------|
 | On-chain Instructions | 21 |
-| Frontend Pages | 17 |
-| REST API Endpoints | 7 |
+| Frontend Pages | 18 |
+| REST API Endpoints | 12 |
 | Security Patches | 6 critical |
 | Solana Primitives | Anchor, Token-2022, Transfer Hooks, Blinks, PDAs |
 | AI Integration | LLM-powered merchant assistant |
@@ -58,7 +58,7 @@
 | Criteria | Score | Evidence |
 |----------|-------|----------|
 | Viabilidad Técnica | ★★★★★ | 4 Solana layers: Anchor, Token-2022, Blinks, AI Agent |
-| Prototipo Funcional | ★★★★★ | 17 pages, live demo, end-to-end payment flow |
+| Prototipo Funcional | ★★★★★ | 18 pages, live demo, end-to-end payment flow |
 | Complejidad | ★★★★★ | 21 instructions, escrow, subscriptions, KYC, staking |
 | Originalidad | ★★★★★ | First Blinks + Loyalty + AI platform on Solana |
 

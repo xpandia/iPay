@@ -12,7 +12,7 @@ Visa y Mastercard construyeron los rieles del mundo tradicional. Square construy
 
 **Hasta ahora.**
 
-iPay es la capa de experiencia de pagos crypto para los **57 millones de usuarios crypto en America Latina** — el mercado de pagos digitales de **$460 mil millones** que crece al 25% anual.
+iPay es la capa de experiencia de pagos crypto para los **más de 55 millones de usuarios crypto en America Latina** — el mercado de pagos digitales de **$460 mil millones** que crece al 25% anual.
 
 ---
 

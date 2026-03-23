@@ -1,202 +1,198 @@
-# iPay — Investor Pitch Video Script
+# iPay — Script del Video (3 minutos)
 
-**Duration:** 3:00 hard cap
-**Tone:** Aggressive. Urgent. This is a fundraise, not a demo.
-**Language:** English primary. Spanish where it hits harder.
-**Rule:** If a word doesn't move the needle, cut it.
-
----
-
-## [0:00 — 0:15] SHOCK OPENING
-
-*No logo. No intro. No music fade-in. Voice starts on frame one.*
-*Screen: Dark background, key numbers appearing as bold text overlays as they're spoken.*
-
-> "Six days ago, Mastercard paid 1.8 billion dollars for a stablecoin payments company.
-> Last year, Stripe paid 1.1 billion for Bridge.
-> The smart money is screaming one thing: stablecoin payment infrastructure is the next trillion-dollar layer of fintech.
-> And nobody — nobody — is building it for Latin America's 57 million crypto users.
-> Until now."
-
-*Beat. Screen cuts to iPay interface.*
+**Duración:** 3:00 exactos
+**Tono:** Seguro, directo, con convicción. Esto es un pitch de inversión.
+**Idioma:** Español. Términos técnicos en inglés donde sea natural.
+**Regla:** Si una palabra no suma, sobra.
 
 ---
 
-## [0:15 — 0:30] WHAT IS iPAY
+## [0:00 — 0:15] APERTURA DE IMPACTO
 
-*Screen: iPay landing page, hero section. Clean. Confident.*
+*Sin logo. Sin intro. Sin música. Tu voz arranca desde el segundo cero.*
+*Pantalla: Fondo oscuro. Los números aparecen en grande mientras los dices.*
 
-> "iPay is the Square of PayFi.
-> The only platform on Solana that combines instant merchant payments, automatic on-chain loyalty tokens, and AI-powered commerce tools.
-> One protocol. Everything a merchant needs. Zero intermediaries.
-> Built by xpandia."
+> "Hace seis días, Mastercard pagó mil ochocientos millones de dólares por una empresa de pagos con stablecoins.
+> El año pasado, Stripe pagó mil cien millones por Bridge.
+> El dinero inteligente está gritando una cosa: la infraestructura de pagos crypto es la próxima capa de un trillón de dólares en fintech.
+> Y nadie — nadie — la está construyendo para los más de 55 millones de usuarios crypto en Latinoamérica.
+> Hasta ahora."
 
-*Screen transitions to merchant dashboard.*
-
----
-
-## [0:30 — 1:30] LIVE DEMO — 60 SECONDS, FULL PRODUCT
-
-*Move fast. No narrating what you're about to do — just do it.*
-
-**[0:30 — 0:40] Merchant Onboarding**
-
-*Screen: Merchant registration flow.*
-
-> "Merchant signs up. Name, wallet, done. Ten seconds. They're live."
-
-*Show registration completing. Dashboard appears.*
-
-**[0:40 — 0:55] AI-Powered Commerce**
-
-*Screen: AI assistant chat in merchant dashboard.*
-
-> "Now watch this."
-
-*Type: `Crea un cobro de $50 con doble puntos de lealtad`*
-
-> "Natural language. Spanish. English. Doesn't matter.
-> The AI creates a payment Blink — a Solana Action link — with double loyalty points baked in."
-
-*Blink appears with QR code and share options.*
-
-> "One tap to share on WhatsApp. That's how LATAM moves money."
-
-*Click WhatsApp share button.*
-
-**[0:55 — 1:10] Consumer Payment**
-
-*Screen: New tab — Blink payment page. Clean, Apple Pay-style UI.*
-
-> "Customer opens the link. No app download. No signup.
-> Connects wallet... pays."
-
-*Click pay. Transaction confirms.*
-
-> "Sub-second finality. Solana.
-> And look — loyalty tokens just appeared in their wallet. Automatically. On-chain. No card to stamp, no app to check."
-
-*Show wallet with new iPAY token balance.*
-
-**[1:10 — 1:20] Merchant Dashboard — Real Analytics**
-
-*Screen: Merchant analytics page — charts, revenue, customers.*
-
-> "Back on the merchant side: real-time revenue, transaction volume, top customers, loyalty redemption rates.
-> The merchant doesn't need to understand blockchain. They understand money coming in and customers coming back."
-
-**[1:20 — 1:30] Developer API**
-
-*Screen: Developer portal / API documentation page.*
-
-> "And for developers: full REST APIs. Payments, invoices, subscriptions, webhooks.
-> iPay isn't just a product — it's a platform others build on."
+*Pausa. Corte a la interfaz de iPay.*
 
 ---
 
-## [1:30 — 2:00] TECHNICAL DEPTH
+## [0:15 — 0:30] QUÉ ES iPAY
 
-*Screen: Smart contract code briefly visible, then architecture diagram or key stats as text overlays.*
+*Pantalla: Landing page de iPay, sección hero.*
 
-> "Let's talk about what's under the hood — because this is where we separate from everyone else."
+> "iPay es el Square de PayFi.
+> La única plataforma en Solana que combina pagos instantáneos para comercios, tokens de lealtad automáticos on-chain, y herramientas de comercio potenciadas con inteligencia artificial.
+> Un protocolo. Todo lo que un comercio necesita. Cero intermediarios.
+> Creado por xpandia."
 
-*Beat.*
-
-> "Twenty-one on-chain instructions. Not three. Not five. Twenty-one.
-> Full escrow with dispute resolution.
-> Recurring subscriptions — on-chain.
-> Merchant staking tiers.
-> KYC verification levels.
-> Multi-currency support: SOL, USDC, USDT.
-> Token-2022 with Transfer Hooks for zero-friction automatic loyalty."
-
-*Screen: Brief flash of Anchor code showing instruction handlers.*
-
-> "We identified and patched six critical security vulnerabilities before deployment.
-> Platform wallet validation. Overflow protection. Authority verification on every instruction.
-> This isn't a toy. This is production-grade protocol engineering."
-
-*Screen: Security audit summary or patched code diff.*
-
-> "And the entire Solana program? Fully deployed. Verified on Explorer. Working today."
+*Transición al dashboard de merchant.*
 
 ---
 
-## [2:00 — 2:30] MARKET + TRACTION
+## [0:30 — 1:30] DEMO EN VIVO — 60 SEGUNDOS
 
-*Screen: Market data as bold, clean overlays. Each number hits like a headline.*
+*Moverse rápido. No narrar lo que vas a hacer — solo hacerlo.*
 
-> "Here's the market we're attacking."
+**[0:30 — 0:40] Registro del Comercio**
 
-> "730 billion dollars in Latin American crypto volume. Growing 60% year over year."
+*Pantalla: Flujo de onboarding.*
 
-*Number appears: $730B*
+> "El comercio se registra. Nombre, wallet, listo. Diez segundos y ya está operando."
 
-> "130 million unbanked adults across the region. People with phones, without bank accounts."
+*Mostrar el registro completándose. Aparece el dashboard.*
 
-*Number appears: 130M*
+**[0:40 — 0:55] Comercio con IA**
 
-> "Zero — zero — platforms combining payments, loyalty, and AI for this market on Solana."
+*Pantalla: Chat del asistente IA en el dashboard.*
 
-*Number appears: 0 competitors*
+> "Ahora miren esto."
 
-> "Now here's what should scare you if you're not investing in this."
+*Escribir: `Crea un cobro de $50 con doble puntos de lealtad`*
 
-*Beat.*
+> "Lenguaje natural. Español, inglés, no importa.
+> La IA crea un Blink de pago — un link de Solana Actions — con puntos de lealtad dobles incluidos."
 
-> "We built this entire platform — 21 smart contract instructions, 17 application pages, 7 production APIs, an AI assistant, a full analytics dashboard — in four days.
-> Cuatro dias."
+*Aparece el Blink con código QR y opciones de compartir.*
 
-*Pause. Let that land.*
+> "Un toque para compartir por WhatsApp. Así se mueve el dinero en Latinoamérica."
 
-> "Imagine what this team builds in four months with real funding."
+*Click en el botón de WhatsApp.*
+
+**[0:55 — 1:10] Pago del Cliente**
+
+*Pantalla: Nueva pestaña — página de pago del Blink.*
+
+> "El cliente abre el link. No necesita descargar nada. No necesita registrarse.
+> Conecta su wallet... y paga."
+
+*Click en pagar. La transacción se confirma.*
+
+> "Confirmación en menos de un segundo. Solana.
+> Y miren — los tokens de lealtad ya aparecieron en su wallet. Automáticamente. On-chain. Sin tarjeta que sellar, sin app que revisar."
+
+*Mostrar la wallet con el nuevo balance de iPAY tokens.*
+
+**[1:10 — 1:20] Dashboard del Comercio**
+
+*Pantalla: Página de analytics del merchant.*
+
+> "De vuelta en el lado del comercio: revenue en tiempo real, volumen de transacciones, mejores clientes, tasas de redención de loyalty.
+> El comerciante no necesita entender blockchain. Entiende que el dinero entra y los clientes regresan."
+
+**[1:20 — 1:30] API para Desarrolladores**
+
+*Pantalla: Portal de developer y documentación de APIs.*
+
+> "Y para desarrolladores: APIs REST completas. Pagos, facturas, suscripciones, webhooks.
+> iPay no es solo un producto — es una plataforma sobre la que otros construyen."
 
 ---
 
-## [2:30 — 3:00] THE ASK + CLOSE
+## [1:30 — 2:00] PROFUNDIDAD TÉCNICA
 
-*Screen: iPay logo, clean. Then URL.*
+*Pantalla: Código del smart contract brevemente, luego estadísticas como overlays.*
 
-> "We are not here for a prize.
-> We are here because the window for Latin American PayFi infrastructure is open right now — and it won't stay open long."
+> "Hablemos de lo que hay debajo del capó — porque aquí es donde nos separamos de todos los demás."
 
-> "Mastercard sees it. They wrote a check for 1.8 billion.
-> Stripe sees it. They wrote a check for 1.1 billion.
-> The question is whether Solana is going to own this layer — or watch Ethereum L2s take it."
+*Pausa.*
 
-*Beat.*
+> "Veintiuna instrucciones on-chain. No tres. No cinco. Veintiuna.
+> Escrow completo con resolución de disputas.
+> Suscripciones recurrentes — on-chain.
+> Niveles de staking para comercios.
+> Verificación KYC por tiers.
+> Soporte multi-moneda: SOL, USDC, EURC, PYUSD.
+> Token-2022 con Transfer Hooks para lealtad automática sin fricción."
 
-> "iPay is how Solana wins Latin America.
-> The protocol is built. The product is live. The team is ready."
+*Pantalla: Flash del código Anchor mostrando los instruction handlers.*
 
-> "iPay. By xpandia.
-> ipay.xpandia.co"
+> "Identificamos y parcheamos seis vulnerabilidades críticas de seguridad antes del deployment.
+> Validación de wallets. Protección contra overflow. Verificación de autoridad en cada instrucción.
+> Esto no es un juguete. Es ingeniería de protocolo nivel producción."
 
-*URL holds on screen for 3 seconds. Hard cut to black.*
+> "Y el programa completo de Solana? Deployed. Verificado en Explorer. Funcionando hoy."
 
 ---
 
-## RECORDING NOTES
+## [2:00 — 2:30] MERCADO + TRACCIÓN
 
-- **No background music during speech.** Silence is more powerful. Optional subtle beat only during demo section.
-- **Text overlays are critical.** Every key number ($730B, 130M, 21 instructions, 4 days) should appear on screen as spoken.
-- **Demo must be pre-rehearsed** so there are zero hesitations. If anything lags, cut and splice.
-- **Voice tone:** Start intense (opening), go matter-of-fact during demo, build intensity through technical section, peak conviction on the close.
-- **Do NOT smile through the opening.** This is serious money. Match the energy.
-- Record in 4K if possible, deliver in 1080p minimum.
+*Pantalla: Datos de mercado como overlays grandes y limpios. Cada número golpea.*
 
-## TIMING CHEAT SHEET
+> "Este es el mercado que estamos atacando."
+
+> "730 mil millones de dólares en volumen crypto en Latinoamérica. Creciendo 60 por ciento año tras año."
+
+*Aparece: $730B*
+
+> "130 millones de adultos sin acceso bancario en la región. Personas con teléfono, sin cuenta de banco."
+
+*Aparece: 130M*
+
+> "Cero — cero — plataformas que combinen pagos, lealtad e inteligencia artificial para este mercado en Solana."
+
+*Aparece: 0 competidores*
+
+> "Ahora, esto es lo que debería preocuparles si no están invirtiendo en esto."
+
+*Pausa.*
+
+> "Construimos toda esta plataforma — 21 instrucciones de smart contract, 18 páginas de aplicación, 12 APIs en producción, un asistente de IA, un dashboard completo de analytics — en cuatro días."
+
+*Pausa. Dejar que aterrice.*
+
+> "Imaginen lo que este equipo construye en cuatro meses con inversión real."
+
+---
+
+## [2:30 — 3:00] CIERRE
+
+*Pantalla: Logo de iPay, limpio. Luego la URL.*
+
+> "No estamos aquí por un premio.
+> Estamos aquí porque la ventana para la infraestructura de PayFi en Latinoamérica está abierta ahora mismo — y no va a estar abierta mucho tiempo."
+
+> "Mastercard lo ve. Firmó un cheque de mil ochocientos millones.
+> Stripe lo ve. Firmó un cheque de mil cien millones.
+> La pregunta es si Solana va a ser dueño de esta capa — o va a ver cómo los L2 de Ethereum se la llevan."
+
+*Pausa.*
+
+> "iPay es como Solana gana Latinoamérica.
+> El protocolo está construido. El producto está en vivo. El equipo está listo."
+
+> "iPay. Por xpandia.
+> ipay punto xpandia punto co."
+
+*La URL queda en pantalla 3 segundos. Corte a negro.*
+
+---
+
+## NOTAS DE GRABACIÓN
+
+- **Sin música de fondo mientras hablas.** El silencio es más poderoso. Música sutil opcional solo durante la demo.
+- **Los overlays de texto son críticos.** Cada número clave ($730B, 130M, 21 instrucciones, 4 días) debe aparecer en pantalla al decirlo.
+- **La demo debe estar ensayada** para que no haya hesitaciones. Si algo se traba, corta y empalma.
+- **Tono de voz:** Arranca intenso (apertura), ve a tono directo en la demo, sube la intensidad en la parte técnica, convicción máxima en el cierre.
+- Graba en 1080p mínimo.
+
+## TIMING
 
 ```
-0:00  SHOCK — "Six days ago, Mastercard..."
-0:15  WHAT — "iPay is the Square of PayFi"
-0:30  DEMO — Merchant registration
-0:40  DEMO — AI creates Blink
-0:55  DEMO — Customer pays
-1:10  DEMO — Merchant analytics
-1:20  DEMO — Developer API
-1:30  TECH — "21 on-chain instructions"
-2:00  MARKET — "$730 billion"
-2:30  CLOSE — "We are not here for a prize"
-3:00  BLACK
+0:00  IMPACTO — "Hace seis días, Mastercard..."
+0:15  QUÉ ES — "iPay es el Square de PayFi"
+0:30  DEMO — Registro de comercio
+0:40  DEMO — IA crea Blink
+0:55  DEMO — Cliente paga
+1:10  DEMO — Analytics del comercio
+1:20  DEMO — API de desarrolladores
+1:30  TÉCNICO — "Veintiuna instrucciones on-chain"
+2:00  MERCADO — "730 mil millones"
+2:30  CIERRE — "No estamos aquí por un premio"
+3:00  NEGRO
 ```

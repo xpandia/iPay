@@ -59,7 +59,7 @@
 ### Platform
 - `initialize_platform` / `pause_platform` / `unpause_platform`
 
-## DEVELOPER ECOSYSTEM (7 REST APIs)
+## DEVELOPER ECOSYSTEM (12 REST APIs)
 - `/api/payments` — Payment intents with Blink, checkout, QR URLs
 - `/api/webhooks` — 13 event types for real-time notifications
 - `/api/invoices` — Professional invoice generation
