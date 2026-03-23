@@ -1,11 +1,18 @@
 {
-  "license": "ISC",  
+  "name": "ipay-protocol",
+  "version": "0.1.0",
+  "description": "iPay Protocol — Solana smart contract with 21 on-chain instructions for payments, loyalty, escrow, and subscriptions.",
+  "keywords": ["solana", "anchor", "rust", "smart-contract", "payments", "loyalty", "escrow", "subscriptions"],
+  "homepage": "https://ipay.xpandia.co",
+  "author": "Daniel Ospina",
+  "license": "ISC",
   "scripts": {
     "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
     "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
   },
   "dependencies": {
-    "@coral-xyz/anchor": "^0.30.1"
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/spl-token": "^0.4.6"
   },
   "devDependencies": {
     "chai": "^4.3.4",

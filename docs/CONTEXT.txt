@@ -294,6 +294,45 @@ Herramientas actualizadas:
    - Plan de acción revisado para días 2-4
    - Checklist final para ganar
 
---- PRÓXIMO: Día 2 — Deploy devnet + USDC support + Next.js + Blinks API ---
+✅ EJÉRCITO DE 10 AGENTES DESPLEGADO EN PARALELO — 9/10 completados
+✅ Smart contract v2 compilado (488KB) con:
+   - 7 instrucciones: initialize_platform, register_merchant, update_merchant,
+     process_payment, process_payment_spl, process_refund, redeem_loyalty
+   - 4 eventos: PaymentProcessed, MerchantRegistered, LoyaltyRedeemed, RefundProcessed
+   - merchant_category field, RefundRecord struct
+   - Nota: process_payment_spl tiene stack overflow warning, se usará process_payment (SOL) para demo
+✅ Frontend Next.js 14 BUILD EXITOSO — 12 rutas:
+   - / (Landing page con hero, features, stats, animations)
+   - /merchant (Dashboard + registro + payments table)
+   - /merchant/ai (AI chat con NL parser → Blinks)
+   - /merchant/analytics (Charts con recharts)
+   - /pay (Consumer checkout con success animation + confetti)
+   - /wallet (Loyalty tokens balance + history)
+   - /api/actions/pay (Blinks GET+POST endpoint)
+   - /api/actions/merchant/[id] (Merchant-specific Blinks)
+   - /actions.json (Solana Actions discovery)
+   - /api/ai/chat (AI natural language parser)
+   - /api/qr (QR code PNG generator)
+✅ 31+ componentes creados (StatsCard, PaymentTable, CreateBlinkModal, etc.)
+✅ README.md profesional + LICENSE MIT + .gitignore completo
+✅ IDL generado (30KB) para client-side interaction
+
+✅ Platform inicializada on-chain:
+   - Platform PDA: H521DctKNez4czYGdW33ZwQCZHc53R86pGP5VuCkcNQm
+   - Loyalty Mint: CRJqookT2EuxZtCJmG8Z69S1qUSTV2rHGh62CQowwFsZ
+   - Fee: 0.5% (50 bps), Rate: 1000 iPAY/SOL
+✅ Redesign Apple + Solana completado (4 agentes: globals, merchant, pay, AI)
+✅ INTEGRACIÓN ON-CHAIN COMPLETA (7 agentes):
+   - Merchant registration → real register_merchant instruction
+   - Payments → real process_payment: SOL + auto loyalty mint
+   - Wallet → real SOL + iPAY balance from devnet
+   - Blinks API → transactions using iPay program
+   - AI chat → generates real functional Blinks + on-chain stats
+   - Analytics → reads real merchant data from chain
+   - CreateBlink modal → real QR + WhatsApp sharing + functional URLs
+✅ Deployed to Vercel: ipay.xpandia.co
+✅ GitHub repo público: github.com/xpandia/iPay
+
+--- PRÓXIMO: Test end-to-end + video demo + submit DoraHacks ---
 
 ================================================================================

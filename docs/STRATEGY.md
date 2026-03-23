@@ -193,7 +193,7 @@ WayLearn es una organización educativa enfocada en blockchain/Solana en LATAM. 
 | **Frontend** | Next.js 14 + TypeScript + Tailwind CSS | SSR para SEO, App Router para performance |
 | **Wallet** | @solana/wallet-adapter (Phantom, Solflare, Backpack) | Estándar de la industria |
 | **Blinks** | @solana/actions SDK + API Routes | Solana Actions specification |
-| **AI Agent** | Claude API (Anthropic) + Solana Agent Kit (SendAI) | AI más capaz + toolkit Solana nativo |
+| **AI Agent** | LLM API + Solana Agent Kit (SendAI) | AI más capaz + toolkit Solana nativo |
 | **QR Codes** | @solana/pay + qrcode library | Solana Pay QR specification |
 | **Database** | Supabase (PostgreSQL) | Real-time, auth, free tier |
 | **Deploy Frontend** | Vercel | Zero-config, gratis, CDN global |
@@ -215,7 +215,7 @@ WayLearn es una organización educativa enfocada en blockchain/Solana en LATAM. 
 - [ ] API: QR code generation
 
 #### Día 3 (22 Mar) — AI + Polish
-- [ ] AI Agent: Natural Language → Blinks generation (Claude API)
+- [ ] AI Agent: Natural Language → Blinks generation (LLM API)
 - [ ] AI Agent: Merchant analytics chatbot
 - [ ] Frontend: AI chat interface en dashboard
 - [ ] Frontend: Landing page con demo
@@ -402,7 +402,7 @@ Los 10 proyectos seleccionados para incubación en mayo serán contactados priva
 - Transfer Hooks (Token-2022) están maduros
 - Solana Actions/Blinks specification es estable
 - Solana Agent Kit tiene 60+ acciones listas
-- Claude API es el mejor LLM para coding/reasoning
+- LLM API es el mejor LLM para coding/reasoning
 
 ### 4. Alineamiento Total con los Stakeholders
 - **Solana Foundation:** iPay es PayFi, usa Blinks, Token-2022, Actions — todo lo nuevo
