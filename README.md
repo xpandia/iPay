@@ -72,6 +72,7 @@ iPay es la plataforma global de pagos con wallet construida sobre Solana que per
 | Build Status | ✅ anchor build + next build + tsc |
 | Live Demo | [ipay.xpandia.co](https://ipay.xpandia.co) |
 | Pitch Deck | [ipay.xpandia.co/pitch](https://ipay.xpandia.co/pitch) |
+| Demo Video | [Ver en Loom](https://www.loom.com/share/cb6d8b12de8b44a49a081dc75b899042) |
 
 ## Screenshots
 
