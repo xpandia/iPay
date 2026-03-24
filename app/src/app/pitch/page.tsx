@@ -621,8 +621,8 @@ export default function PitchDeck() {
 
           <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6">
             <Stat value={21} label="On-chain instructions" />
-            <Stat value={30} label="Frontend routes" />
-            <Stat value={7} label="REST APIs" />
+            <Stat value={18} label="Frontend pages" />
+            <Stat value={12} label="REST APIs" />
             <Stat value={56} label="Files shipped" />
           </div>
 
@@ -660,12 +660,12 @@ export default function PitchDeck() {
         <div data-slide-index={10} className="w-full max-w-5xl">
           <span className="text-xs font-mono text-[#14F195] uppercase tracking-[0.3em]">Roadmap</span>
           <h2 className="mt-4 text-4xl sm:text-5xl font-black text-white leading-tight mb-12">
-            From hackathon to <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] bg-clip-text text-transparent">$2B TPV.</span>
+            From launch to <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] bg-clip-text text-transparent">$2B TPV.</span>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16">
             <div>
-              <Phase phase="Phase 1 — Mar 2026" title="Hackathon MVP" done items={["21 on-chain instructions", "Full frontend + 12 APIs", "AI merchant assistant", "Live on devnet"]} />
+              <Phase phase="Phase 1 — Mar 2026" title="Foundation MVP" done items={["21 on-chain instructions", "Full frontend + 12 APIs", "AI merchant assistant", "Live on devnet"]} />
               <Phase phase="Phase 2 — Apr–Aug 2026" title="Incubation & Beta" items={["Security audit", "Beta with 20-50 merchants (Colombia)", "Fiat on/off-ramp (Bridge/Circle)", "KYC/AML integration (Metamap)"]} />
             </div>
             <div>

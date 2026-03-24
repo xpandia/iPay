@@ -41,7 +41,7 @@ Lean estos numeros despacio:
 | **Smart contract (Rust)** | 2,178 lineas |
 | **Codigos de error personalizados** | 34 — cada edge case cubierto |
 | **Archivos frontend** | 54 componentes TypeScript/React |
-| **APIs REST** | 9 endpoints de produccion |
+| **APIs REST** | 12 endpoints de produccion |
 | **Paginas de producto** | 18+ rutas completas |
 | **Tiempo de construccion** | 4 dias |
 
@@ -94,7 +94,7 @@ Esto importa porque demuestra que pensamos en **produccion**, no en demos. Un ju
 - **Recibos digitales** generados automaticamente
 
 ### Para developers:
-- **9 APIs REST documentadas** — payments, webhooks, invoices, subscriptions, merchants, receipts, AI, actions, QR
+- **12 APIs REST documentadas** — payments, webhooks, invoices, subscriptions, merchants, receipts, AI, actions, QR
 - **Webhook system** para integraciones en tiempo real
 - **Developer portal** con documentacion completa
 
@@ -152,7 +152,7 @@ El mercado de pagos digitales en LATAM alcanzara **$460 mil millones en 2025**. 
 
 **Construimos todo esto en 4 dias.**
 
-52,353 lineas de codigo. 21 instrucciones on-chain. 34 codigos de error. 9 APIs. 18 paginas de producto. Asistente IA integrado. Dashboard de analytics. Sistema de escrow con disputas. Suscripciones recurrentes. Documentacion de negocio completa.
+52,353 lineas de codigo. 21 instrucciones on-chain. 34 codigos de error. 12 APIs. 18 paginas de producto. Asistente IA integrado. Dashboard de analytics. Sistema de escrow con disputas. Suscripciones recurrentes. Documentacion de negocio completa.
 
 **En 4 dias.**
 

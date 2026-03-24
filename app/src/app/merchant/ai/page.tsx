@@ -270,7 +270,7 @@ export default function AIAssistantPage() {
         </form>
 
         <p className="text-center text-[10px] text-gray-700 mt-2 tracking-wide">
-          iPay AI · Conectado a Solana
+          iPay AI · Powered by xpandia
         </p>
       </div>
     </div>

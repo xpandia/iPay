@@ -231,7 +231,7 @@ export default function DeveloperPortal() {
       <header className="border-b border-gray-800 bg-gray-950/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <span className="text-2xl font-bold bg-gradient-to-r from-green-400 to-emerald-500 bg-clip-text text-transparent">
+            <span className="text-2xl font-bold bg-gradient-to-r from-[#9945FF] to-[#14F195] bg-clip-text text-transparent">
               iPay
             </span>
             <span className="text-sm text-gray-400 border-l border-gray-700 pl-3">
@@ -410,7 +410,7 @@ export default function DeveloperPortal() {
               {/* On-chain instructions */}
               <div className="mt-8 bg-gray-900 rounded-xl border border-gray-800 p-6">
                 <h2 className="text-xl font-bold mb-4">
-                  Smart Contract Instructions (17 total)
+                  Smart Contract Instructions (21 total)
                 </h2>
                 <div className="grid grid-cols-2 gap-2 text-sm">
                   {[

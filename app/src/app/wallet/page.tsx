@@ -135,7 +135,7 @@ export default function WalletPage() {
 
         <footer className="relative z-10 pb-6 text-center">
           <span className="text-xs text-gray-600 tracking-wide">
-            Impulsado por <span className="solana-gradient-text font-medium">Solana</span>
+            Powered by <a href="https://xpandia.co" target="_blank" rel="noopener noreferrer" className="font-semibold text-gray-400 hover:text-white transition-colors">xpandia</a>
           </span>
         </footer>
       </div>
@@ -473,7 +473,7 @@ export default function WalletPage() {
       {/* Footer */}
       <footer className="relative z-10 pb-6 pt-4 text-center">
         <span className="text-xs text-gray-600 tracking-wide">
-          Impulsado por <span className="solana-gradient-text font-medium">Solana</span>
+          Powered by <a href="https://xpandia.co" target="_blank" rel="noopener noreferrer" className="font-semibold text-gray-400 hover:text-white transition-colors">xpandia</a>
         </span>
       </footer>
     </div>
