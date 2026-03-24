@@ -827,54 +827,84 @@ export default function LandingPage() {
       </Section>
 
       {/* ════════════════════ SECTION 5.5: USE CASES ════════════════════ */}
-      <Section className="py-24 px-6">
+      <Section id="usecases" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <p className="text-xs uppercase tracking-[0.25em] text-[#14F195] mb-4">
               Casos de uso
             </p>
             <h2 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
-              Una plataforma,{" "}
-              <span className="solana-gradient-text">m&uacute;ltiples usos</span>
+              Un protocolo,{" "}
+              <span className="solana-gradient-text">infinitas posibilidades</span>
             </h2>
-            <p className="text-gray-400 text-lg max-w-xl mx-auto">
-              iPay funciona para todos: comercios, freelancers, personas y partners.
+            <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+              Lo que otros construyen como proyectos separados, iPay lo resuelve con un solo protocolo.
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {[
               {
                 icon: "\uD83C\uDFEA",
                 title: "Comercios",
                 description:
-                  "Acepta pagos crypto con 0.5% de comisi\u00f3n. Tus clientes ganan loyalty tokens con cada compra.",
+                  "Acepta pagos crypto con 0.5% de comisi\u00f3n y loyalty autom\u00e1tico para tus clientes",
               },
               {
                 icon: "\uD83D\uDCBC",
                 title: "Freelancers",
                 description:
-                  "Escrow protegido: tu cliente deposita, t\u00fa entregas, el pago se libera. Sin disputas.",
+                  "Escrow protegido: tu cliente deposita, t\u00fa entregas, el pago se libera. Sin Upwork, sin 20%",
               },
               {
                 icon: "\uD83D\uDC65",
-                title: "Entre personas",
+                title: "P2P Global",
                 description:
-                  "Env\u00eda dinero a cualquier wallet del mundo. Ambos ganan iPAY tokens por cada transferencia.",
+                  "Env\u00eda dinero a cualquier wallet del mundo. Ambos ganan iPAY tokens",
+              },
+              {
+                icon: "\uD83C\uDFAB",
+                title: "Eventos",
+                description:
+                  "Vende tickets como Blinks. Anti-fraude, anti-reventa, con loyalty incluido",
+              },
+              {
+                icon: "\uD83D\uDD04",
+                title: "Suscripciones",
+                description:
+                  "Cobros recurrentes on-chain. Membres\u00edas, SaaS, servicios \u2014 todo automatizado",
               },
               {
                 icon: "\uD83E\uDD1D",
                 title: "Partners",
                 description:
-                  "Integra tu marca al ecosistema iPay. Ofrece descuentos, bonos y premios canjeables con iPAY tokens.",
+                  "Integra tu marca al ecosistema. Ofrece descuentos y premios canjeables con iPAY",
+              },
+              {
+                icon: "\uD83D\uDC9D",
+                title: "Donaciones",
+                description:
+                  "Blinks de donaci\u00f3n transparentes. Cada centavo rastreable on-chain",
+              },
+              {
+                icon: "\uD83C\uDF0D",
+                title: "Remesas",
+                description:
+                  "Env\u00eda dinero a tu familia sin bancos, sin fees abusivos, confirmaci\u00f3n instant\u00e1nea",
+              },
+              {
+                icon: "\uD83D\uDEE1\uFE0F",
+                title: "Servicios",
+                description:
+                  "Escrow para cualquier servicio: m\u00e9dico, legal, t\u00e9cnico. Pago solo cuando se entrega",
               },
             ].map((useCase) => (
               <div
                 key={useCase.title}
-                className="glass-card-hover p-8 rounded-2xl text-center"
+                className="glass-card-hover p-6 rounded-2xl text-center"
               >
-                <div className="text-4xl mb-5">{useCase.icon}</div>
-                <h3 className="text-lg font-semibold text-white mb-3">
+                <div className="text-3xl mb-3">{useCase.icon}</div>
+                <h3 className="text-base font-semibold text-white mb-2">
                   {useCase.title}
                 </h3>
                 <p className="text-sm text-gray-400 leading-relaxed">
@@ -883,6 +913,10 @@ export default function LandingPage() {
               </div>
             ))}
           </div>
+
+          <p className="text-center text-gray-500 text-sm mt-10">
+            21 instrucciones on-chain. Un protocolo que reemplaza a 10 plataformas.
+          </p>
         </div>
       </Section>
 

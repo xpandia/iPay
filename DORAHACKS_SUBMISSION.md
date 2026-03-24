@@ -186,6 +186,26 @@ iPay no "combina" dos categorias como feature separados. Los Blinks son el mecan
 
 ---
 
+## Un protocolo que reemplaza 10 plataformas
+
+Mientras otros proyectos en este hackathon construyen soluciones individuales para problemas individuales, iPay los resuelve todos con un solo protocolo:
+
+| Caso de uso | Otros proyectos | iPay |
+|---|---|---|
+| Escrow para freelancers | SolFreelance, BlinkTasks | ✅ `create_escrow` + `release_escrow` + `dispute_escrow` |
+| Pagos P2P con Blinks | Kustodia | ✅ Blinks + P2P + loyalty automático |
+| Loyalty on-chain | BeautyChain, Ticket Inteligente | ✅ Transfer Hooks — loyalty en CADA transacción |
+| Ticketing anti-fraude | ProofTicket, FairTix | ✅ Blinks como tickets + escrow |
+| Donaciones transparentes | PawPay, Refugio Animal | ✅ Blinks de donación rastreables on-chain |
+| Suscripciones recurrentes | Ninguno | ✅ `create_subscription` + `execute_subscription_payment` |
+| Verificación KYC | Ninguno | ✅ `verify_merchant` con tiers |
+| AI para comercio | Ninguno | ✅ Asistente IA integrado |
+| APIs para desarrolladores | Ninguno | ✅ 12 REST APIs con webhooks |
+
+**Otros construyen features. Nosotros construimos infraestructura.**
+
+---
+
 ## Links
 
 | | |

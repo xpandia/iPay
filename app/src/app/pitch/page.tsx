@@ -346,6 +346,26 @@ export default function PitchDeck() {
               <span className="text-[#14F195] font-bold">Key differentiator:</span> No one else combines Blinks + Loyalty + AI on Solana. iPay is the <span className="text-white font-semibold">ONLY</span> platform.
             </p>
           </div>
+
+          <div className="mt-6 grid grid-cols-3 sm:grid-cols-5 gap-2">
+            {[
+              { icon: "\u{1F3EA}", label: "Commerce" },
+              { icon: "\u{1F4BC}", label: "Freelance" },
+              { icon: "\u{1F465}", label: "P2P" },
+              { icon: "\u{1F3AB}", label: "Events" },
+              { icon: "\u{1F504}", label: "Subscriptions" },
+              { icon: "\u{1F91D}", label: "Partners" },
+              { icon: "\u{1F49D}", label: "Donations" },
+              { icon: "\u{1F30D}", label: "Remittances" },
+              { icon: "\u{1F6E1}\uFE0F", label: "Services" },
+            ].map((item, i) => (
+              <div key={i} className="text-center py-2 px-1 rounded-lg bg-white/[0.02] border border-white/[0.04]">
+                <div className="text-lg">{item.icon}</div>
+                <div className="text-[10px] text-gray-500 mt-0.5">{item.label}</div>
+              </div>
+            ))}
+          </div>
+          <p className="mt-3 text-xs text-gray-500 text-center">One protocol. Nine verticals. Zero competitors.</p>
         </div>
       </Slide>
 
