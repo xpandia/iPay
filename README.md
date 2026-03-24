@@ -9,7 +9,47 @@
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="MIT License" />
 </p>
 
-# iPay — The Future of Payments
+# iPay — El Futuro de los Pagos | The Future of Payments
+
+<details>
+<summary>🇺🇸 English version below</summary>
+
+> Scroll down for the full English documentation.
+
+</details>
+
+## ¿Qué es iPay?
+
+iPay es la plataforma global de pagos con wallet construida sobre Solana que permite a comercios, freelancers y personas realizar pagos instantáneos con crypto, ganar recompensas automáticas de lealtad y gestionar su negocio con inteligencia artificial.
+
+**Un protocolo. Nueve verticales. Cero competidores.**
+
+🏪 Comercios · 💼 Freelancers · 👥 P2P · 🎫 Eventos · 🔄 Suscripciones · 🤝 Partners · 💝 Donaciones · 🌍 Remesas · 🛡️ Servicios
+
+### ¿Por qué iPay?
+
+- **0.5% de comisión** vs 3-7% de procesadores tradicionales
+- **Settlement instantáneo** vs 14-30 días de espera
+- **Loyalty automático** — cada pago genera tokens iPAY para el cliente, on-chain
+- **Asistente IA** — gestión de pagos en lenguaje natural
+- **Solana Blinks** — links de pago compartibles en WhatsApp, redes sociales, email
+- **Escrow con disputas** — protección para freelancers y servicios
+- **Suscripciones on-chain** — cobros recurrentes automatizados
+- **12 APIs REST** — infraestructura para que otros construyan sobre iPay
+
+### Links
+
+| | |
+|---|---|
+| **Demo en vivo** | [ipay.xpandia.co](https://ipay.xpandia.co) |
+| **Pitch Deck** | [ipay.xpandia.co/pitch](https://ipay.xpandia.co/pitch) |
+| **Smart Contract** | [Ver en Solana Explorer](https://explorer.solana.com/address/2DhfCmG1sUiX8ZJc4wZkq42hfbhNf6PPnhR7bXPyxEAc?cluster=devnet) |
+
+### Construido por [xpandia](https://xpandia.co)
+
+---
+
+## English Documentation
 
 ![Solana](https://img.shields.io/badge/Solana-Devnet-9945FF?style=for-the-badge&logo=solana)
 ![Smart Contract](https://img.shields.io/badge/Instructions-21_On--Chain-14F195?style=for-the-badge)
