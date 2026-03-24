@@ -273,7 +273,7 @@ function WaitlistSection() {
           <span className="solana-gradient-text">lista de espera</span>
         </h2>
         <p className="text-gray-400 text-lg max-w-xl mx-auto mb-10 leading-relaxed">
-          Sé de los primeros comercios en usar iPay cuando lancemos en Colombia.
+          S&eacute; de los primeros en usar iPay cuando lancemos.
           Sin costo, sin compromiso.
         </p>
 
@@ -466,9 +466,9 @@ export default function LandingPage() {
 
           {/* Subtitle */}
           <p className="mt-6 text-lg sm:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed animate-fade-up delay-200 opacity-0">
-            La plataforma de pagos inteligentes que combina blockchain, loyalty
-            autom&aacute;tico e inteligencia artificial. Acepta pagos en SOL, USDC,
-            EURC y PYUSD con settlement instant&aacute;neo.
+            La plataforma global de pagos con wallet que combina pagos instant&aacute;neos,
+            loyalty autom&aacute;tico e inteligencia artificial. Para comercios, freelancers
+            y personas. Acepta SOL, USDC, EURC y PYUSD con settlement instant&aacute;neo.
           </p>
 
           {/* CTA Buttons */}
@@ -479,16 +479,16 @@ export default function LandingPage() {
               <ArrowRight className="w-4 h-4" />
             </Link>
             <Link
-              href="/pay?amount=1&merchant=EPasYQuqK2ix9jnn8SVdiJc1FWWXq5SHfHt8mwt7U9ZW&memo=Demo+iPay+Hackathon"
+              href="/pay"
               className="relative inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-base text-black bg-[#14F195] hover:bg-[#14F195]/90 transition-all shadow-lg shadow-[#14F195]/20 hover:shadow-[#14F195]/30"
             >
-              <Zap className="w-5 h-5" />
-              Ver Demo en Vivo
+              <Send className="w-5 h-5" />
+              Enviar un Pago
               <ArrowRight className="w-4 h-4" />
             </Link>
-            <Link href="/pay" className="btn-glass text-base">
-              <CreditCard className="w-5 h-5" />
-              Hacer un Pago
+            <Link href="/wallet" className="btn-glass text-base">
+              <Wallet className="w-5 h-5" />
+              Mi Wallet
             </Link>
           </div>
 
@@ -820,6 +820,66 @@ export default function LandingPage() {
                     </li>
                   ))}
                 </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </Section>
+
+      {/* ════════════════════ SECTION 5.5: USE CASES ════════════════════ */}
+      <Section className="py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="text-xs uppercase tracking-[0.25em] text-[#14F195] mb-4">
+              Casos de uso
+            </p>
+            <h2 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4">
+              Una plataforma,{" "}
+              <span className="solana-gradient-text">m&uacute;ltiples usos</span>
+            </h2>
+            <p className="text-gray-400 text-lg max-w-xl mx-auto">
+              iPay funciona para todos: comercios, freelancers, personas y partners.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                icon: "\uD83C\uDFEA",
+                title: "Comercios",
+                description:
+                  "Acepta pagos crypto con 0.5% de comisi\u00f3n. Tus clientes ganan loyalty tokens con cada compra.",
+              },
+              {
+                icon: "\uD83D\uDCBC",
+                title: "Freelancers",
+                description:
+                  "Escrow protegido: tu cliente deposita, t\u00fa entregas, el pago se libera. Sin disputas.",
+              },
+              {
+                icon: "\uD83D\uDC65",
+                title: "Entre personas",
+                description:
+                  "Env\u00eda dinero a cualquier wallet del mundo. Ambos ganan iPAY tokens por cada transferencia.",
+              },
+              {
+                icon: "\uD83E\uDD1D",
+                title: "Partners",
+                description:
+                  "Integra tu marca al ecosistema iPay. Ofrece descuentos, bonos y premios canjeables con iPAY tokens.",
+              },
+            ].map((useCase) => (
+              <div
+                key={useCase.title}
+                className="glass-card-hover p-8 rounded-2xl text-center"
+              >
+                <div className="text-4xl mb-5">{useCase.icon}</div>
+                <h3 className="text-lg font-semibold text-white mb-3">
+                  {useCase.title}
+                </h3>
+                <p className="text-sm text-gray-400 leading-relaxed">
+                  {useCase.description}
+                </p>
               </div>
             ))}
           </div>

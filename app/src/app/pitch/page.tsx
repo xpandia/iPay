@@ -257,7 +257,7 @@ export default function PitchDeck() {
           </p>
 
           <p className="mt-4 text-base sm:text-lg text-gray-500 max-w-2xl mx-auto">
-            Payments + Loyalty + AI on Solana — Built for Latin America
+            Global wallet payments infrastructure — Merchants, Freelancers &amp; P2P
           </p>
 
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -317,16 +317,17 @@ export default function PitchDeck() {
           <span className="text-xs font-mono text-[#14F195] uppercase tracking-[0.3em]">The Solution</span>
           <h2 className="mt-4 text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight">
             One platform.<br />
-            <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] bg-clip-text text-transparent">Five capabilities.</span>
+            <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] bg-clip-text text-transparent">Six capabilities.</span>
           </h2>
 
-          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {[
               { icon: "⚡", title: "Instant Payments", desc: "Sub-second settlement, 0.5% fees" },
               { icon: "🎁", title: "Auto Loyalty", desc: "iPAY tokens minted on every transaction" },
               { icon: "🤖", title: "AI Assistant", desc: "AI-powered payment management" },
               { icon: "🔗", title: "Solana Blinks", desc: "Shareable payment links anywhere" },
               { icon: "💱", title: "Multi-currency", desc: "SOL, USDC, EURC, PYUSD" },
+              { icon: "👥", title: "P2P Transfers", desc: "Send money globally, both earn rewards" },
             ].map((item, i) => (
               <div
                 key={i}
@@ -359,10 +360,11 @@ export default function PitchDeck() {
             <span className="bg-gradient-to-r from-[#9945FF] to-[#14F195] bg-clip-text text-transparent">$730B</span> and growing.
           </h2>
 
-          <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6">
-            <Stat value={730} suffix="B" label="LATAM Crypto Volume" prefix="$" />
+          <div className="mt-12 grid grid-cols-2 lg:grid-cols-5 gap-6">
+            <Stat value={730} suffix="B" label="Global Crypto Volume" prefix="$" />
             <Stat value={324} suffix="B" label="Stablecoin Volume" prefix="$" />
-            <Stat value={57} suffix="M" label="LATAM Crypto Users" />
+            <Stat value={560} suffix="M" label="Global Crypto Users" />
+            <Stat value={44} suffix="M" label="US Crypto Holders" />
             <Stat value={89} suffix="%" label="Stablecoin YoY Growth" />
           </div>
 
@@ -390,7 +392,7 @@ export default function PitchDeck() {
           <span className="text-xs font-mono text-[#14F195] uppercase tracking-[0.3em]">How It Works</span>
           <h2 className="mt-4 text-4xl sm:text-5xl font-black text-white leading-tight">Three steps. Zero complexity.</h2>
 
-          <div className="mt-14 grid grid-cols-1 md:grid-cols-2 gap-12">
+          <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
               <h3 className="text-xs font-mono text-[#9945FF] uppercase tracking-[0.2em] mb-6">For Merchants</h3>
               {[
@@ -419,6 +421,25 @@ export default function PitchDeck() {
               ].map((item, i) => (
                 <div key={i} className="flex gap-5 mb-8">
                   <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#14F195]/20 to-[#9945FF]/20 border border-white/[0.06] flex items-center justify-center font-mono text-sm text-white/60">
+                    {item.step}
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-white">{item.title}</h4>
+                    <p className="text-sm text-gray-400 mt-1">{item.desc}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div>
+              <h3 className="text-xs font-mono text-[#FFD93D] uppercase tracking-[0.2em] mb-6">For Everyone</h3>
+              {[
+                { step: "01", title: "Send to Any Wallet", desc: "Enter any Solana address or scan QR — send globally in seconds" },
+                { step: "02", title: "Both Earn Rewards", desc: "Both sender and receiver earn iPAY tokens on every transfer" },
+                { step: "03", title: "Redeem Anywhere", desc: "Redeem rewards at partner merchants across the network" },
+              ].map((item, i) => (
+                <div key={i} className="flex gap-5 mb-8">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#FFD93D]/20 to-[#14F195]/20 border border-white/[0.06] flex items-center justify-center font-mono text-sm text-white/60">
                     {item.step}
                   </div>
                   <div>
@@ -550,6 +571,7 @@ export default function PitchDeck() {
               { tier: "Business", fee: "0.5%", target: "SMBs · $1K–$50K/mo", color: "#9945FF", purpose: "Core revenue" },
               { tier: "Pro", fee: "0.3% + $49/mo", target: "Medium business · AI features", color: "#14F195", purpose: "Upsell" },
               { tier: "Enterprise", fee: "Custom 0.2%", target: "Large merchants · Full API", color: "#FFD93D", purpose: "High-value" },
+              { tier: "P2P", fee: "0.1%", target: "Person to person transfers", color: "#14F195", purpose: "Network growth" },
               { tier: "White-label", fee: "License", target: "Banks & fintechs", color: "#FF6B6B", purpose: "B2B enterprise" },
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-4 p-5 rounded-xl border border-white/[0.04] bg-white/[0.02] hover:border-white/[0.1] transition-colors">
